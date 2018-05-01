@@ -3,10 +3,121 @@
 /* **************************
   headder
 ************************** */
+.hdr_wrap {
 
-a.alpha:hover {
-  filter: alpha(opacity = 80);
-  -moz-opacity: 0.8;
-  opacity: 0.8;
+    .hdr_inr {
+        color: #000;
+        .hdr_logo {
 
+        }
+        .hdr_menu {
+            .hdr_menu_inr {
+                .hdr_menu_tell {
+
+                }
+                .hdr_menu_contact {
+
+                }
+            }
+            .hdr_nav {
+                ul {
+                    li {
+                        color: #f00;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* **************************
+  ページトップへ
+************************** */
+#gototop {}
+
+
+/* **************************
+  メインビジュアル
+************************** */
+#main_visual {}
+
+
+/* **************************
+  トップページ内コンテンツ
+************************** */
+#contents {
+    .cont_inr {
+
+        /* h2 */
+        .cont__ttl {
+
+        }
+
+        /* trouble_list */
+        .cont_trouble_wrap {
+            .cont_trouble_list {
+                .cont_trouble_item {
+                    /* h3 */
+                    .cont_trouble_ttl {
+                        color: #f00;
+                    }
+                    ul {
+                        li {
+
+                        }
+                    }
+                    p {
+
+                    }
+                    a {
+
+                    }
+                }
+            }
+        }
+
+        /* cont_2column */
+        .cont_2column {
+            .cont_2column_inr {
+                .cont_2column_left {
+                    .cont_2column_left_reason_wrap {
+                        .cont__left_ttl {
+
+                        }
+                        .cont_2column_left_reason_inr {
+                            .cont_2column_left_reason_list {
+                                .cont_2column_left_reason_item {
+                                    .cont_2column_left_reason_ttl {
+
+                                    }
+                                    .cont_2column_left_reason_img_area {
+                                        .cont_trouble_img {
+
+                                        }
+                                        p {
+                                            
+                                        }
+                                    }
+
+                                }
+
+                            }
+                        }
+                    }
+                }
+                .cont_2column_right {}
+            }
+        }
+    }
+}
+
+
+/* **************************
+  SP
+************************** */
+@media screen and (max-width: 768px) {
+    body {
+        background: #000;
+    }
 }
